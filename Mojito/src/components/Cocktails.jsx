@@ -2,6 +2,7 @@ import React from 'react'
 import { cocktailLists, mockTailLists } from '../../constants'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap';
+import { SplitText } from 'gsap/all';
 
 const Cocktails = () => {
     useGSAP(()=>{
